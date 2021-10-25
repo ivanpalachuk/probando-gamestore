@@ -199,9 +199,8 @@ button:active {
     height: 35px;
     border-color: #8F4DB5;
     border-radius: 8px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     align-items: center;
-    margin-top: 10px;
     font-weight: bold;
     transition: all;
     margin-left: auto;
