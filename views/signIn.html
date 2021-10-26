@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='/css/styles-signUp.css' rel="stylesheet">
+    <link href='/css/styles-signIn.css' rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
     <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
-    <title>GameStore :: SignUp</title>
+    <title>GameStore :: SignIn</title>
 </head>
 
 <body>
@@ -34,7 +34,7 @@
                 <i id="find" class="fas fa-search"></i><br>
             </div>
             <div class="log-sign">
-                Log in
+                Sign Up
             </div>
         </div>
         <div class="menu-desplegable">
@@ -46,116 +46,34 @@
         <button id="cart"><i class="fas fa-shopping-cart"></i></button>
         <form action="/registro" method="POST" class="registro-box">
             <h1>
-                Formulario de Registro
+                Iniciar Session
             </h1>
             <br>
             <section>
                 <article>
                     <div>
-                        <label>Nombre</label><br>
+                        <label>Usuario / Email</label><br>
                         <input name="nombre" type="text" placholder="Tu Nombre" required>
-                    </div>
-
-                    <div>
-                        <label>Apellido</label><br>
-                        <input name="apellido" type="text" placholder="Tu Apellido" required>
-                    </div>
-                    <div>
-                        <label>DNI</label><br>
-                        <input name="dni" type="number" required>
-                    </div>
+                    </div>                   
                 </article>
 
                 <br>
 
-                <article>
-                    <div>
-                        <label>Usuario</label><br>
-                        <input required placholder="Te dicen...." type="text" name="usuario">
-                    </div>
-
-                    <div>
-                        <label>Email</label><br>
-                        <input required placholder="..@dominio." type="email" name="email">
-                    </div>
-                </article>
-                <br>
                 <article>
 
                     <div>
                         <label>Clave</label><br>
-                        <input required placholder="" type="password" name="clave">
-                    </div>
-                    <div>
-                        <label>Confirmar Clave</label><br>
-                        <input required placholder="" type="password" name="clave2">
-                    </div>
-                </article>
-
-                <br>
-
-                <article>
-                    <div>
-                        <label>País</label><br>
-                        <select name="pais">
-                            <option selected>Argentina</option>
-                            <option>Brasil</option>
-                            <option>Uruguay</option>
-                            <option>China</option>
-                            <option>Mordor</option>
-                            <option>Polonia</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label>Provincia</label><br>
-                        <select name="provincia">
-                            <option selected>CABA</option>
-                            <option>Che</option>
-                            <option>Como</option>
-                            <option>hago</option>
-                            <option>esto</option>
-                            <option>dependiente?</option>
-                        </select>
+                        <input required placholder="" type="password" name="clave"><br>
+                        <label>Me olvide de algo</label>
                     </div>
 
                 </article>
 
                 <br>
 
-                <article>
-                    <div>
-                        <label>Dirección</label><br>
-                        <input type="text" name="direccion">
-                    </div>
-                    <div>
-                        <label>Numero</label><br>
-                        <input type="number" name="numero">
-                    </div>
-                    <div>
-                        <label>C.P.</label><br>
-                        <input type="number" name="cp">
-                    </div>
-                </article>
-
-                <br>
-
-                <article>
-                    <div>
-                        <input required type="checkbox" name="tcno" value="tyc"></input>
-                        <label>Acepto Términos y Condiciones</label>
-
-                        <br>
-
-                        <input type="checkbox" name="tyno" value="nyo"></button>
-                        <label>Me gustaria recibir noticias y ofertas especiales de GameStore</label>
-                    </div>
-                </article>
-
-                <br>
 
 
-
-                <button type="submit" class="send-buttom">Confirmar Registro</button>
+                <button type="submit" class="send-buttom">Entrar</button>
 
 
 
